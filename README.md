@@ -53,13 +53,13 @@ Install & configure your desired master node with options:
 ## Examples for typical script invocation
 
 
-**Install & configure 4 PIVX masternodes:**
+**Install & configure 4 BLTG masternodes:**
 
 ```bash
 ./install.sh -p bltg -c 4
 ```
 
-**Update daemon of previously installed PIVX masternodes:**
+**Update daemon of previously installed BLTG masternodes:**
 
 ```bash
 ./install.sh -p bltg -u
@@ -71,7 +71,7 @@ Install & configure your desired master node with options:
 ./install.sh -p bltg -c 6 
 ```
 
-**Wipe all PIVX masternode data:**
+**Wipe all BLTG masternode data:**
 
 ```bash
 ./install.sh -p bltg -w

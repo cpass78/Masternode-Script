@@ -76,6 +76,16 @@ Install & configure your desired master node with options:
 ```bash
 ./install.sh -p bltg -w
 ```
+**once install command has finished
+There is still work to do in the configuration templates.
+These are located at /etc/masternodes, one per masternode.
+Add your masternode private keys now.
+eg in /etc/masternodes/bltg_n1.conf
+
+=>  All configuration files are in: /etc/masternodes
+=>  All Data directories are in: /var/lib/masternodes
+
+Important: run  /usr/local/bin/activate_masternodes_bltg  as root to activate your nodes.
 
 
 ## Options

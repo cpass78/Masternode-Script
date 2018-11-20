@@ -41,7 +41,7 @@ Comparing with building from source manually, you will benefit from using this s
 SSH to your VPS and clone the Github repository:
 
 ```bash
-git clone https://github.com/masternodes/vps.git && cd vps
+git clone https://github.com/Block-Logic-Technology-Group/Masternode-Script.git && cd vps
 ```
 
 Install & configure your desired master node with options:
@@ -113,7 +113,7 @@ If you want to check the status of your masternode, the best way is currently ru
 
 {
   "version": 2000000,
-  "protocolversion": 70920,
+  "protocolversion": 70921,
   "walletversion": 61000,
   "balance": 0.00000000,
   "privatesend_balance": 0.00000000,

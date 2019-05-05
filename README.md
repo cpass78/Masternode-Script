@@ -41,7 +41,7 @@ Comparing with building from source manually, you will benefit from using this s
 SSH to your VPS and clone the Github repository:
 
 ```bash
-git clone https://github.com/Block-Logic-Technology-Group/Masternode-Script.git && cd vps
+git clone https://github.com/Block-Logic-Technology-Group/Masternode-Script.git vps && cd vps
 ```
 
 Install & configure your desired master node with options:

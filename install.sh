@@ -113,8 +113,9 @@ function install_packages() {
     # development and build packages
     # these are common on all cryptos
     echo "* Package installation!"
-    add-apt-repository -yu ppa:bitcoin/bitcoin  &>> ${SCRIPT_LOGFILE}
     apt-get -qq -o=Dpkg::Use-Pty=0 -o=Acquire::ForceIPv4=true update  &>> ${SCRIPT_LOGFILE}
+    apt-get -qqy -o=Dpkg::Use-Pty=0 -o=Acquire::ForceIPv4=true install software-properties-common
+    add-apt-repository -yu ppa:bitcoin/bitcoin  &>> ${SCRIPT_LOGFILE}
     apt-get -qqy -o=Dpkg::Use-Pty=0 -o=Acquire::ForceIPv4=true install build-essential \
     libcurl4-gnutls-dev protobuf-compiler libboost-all-dev autotools-dev automake \
     libboost-all-dev libssl-dev make autoconf libtool git apt-utils g++ \
